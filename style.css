@@ -1,0 +1,56 @@
+body{
+    background: darkgrey;
+    font-family:sans-serif ;
+}
+.wrap{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.content ul, aside ul, form ul {
+    font-size: 120%;
+    list-style: none;
+    padding-left: 0%;
+}
+ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.content, aside{
+    height: 600px;
+}
+.content{
+    float: left;
+    width: 60%;
+    
+}
+aside{
+    float: left;
+    width: 40%;
+
+}
+label{
+    display: block;
+    padding-bottom: 10px;
+}
+label:hover{
+    cursor: pointer;
+}
+form ul{
+    padding-left: 0;
+}
+form li{
+    list-style: none;
+    margin-bottom:20px;
+} 
+input #submit:hover{
+    cursor: pointer;
+}
+textarea {
+	width: 500px;
+	height: 250px;
+	
+}
